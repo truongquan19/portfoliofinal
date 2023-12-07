@@ -1,0 +1,47 @@
+html{
+    max-width: 1400px;
+}
+ul{
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    font-family: 'Outfit', sans-serif, bold;
+    text-align: center;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+nav a{
+    padding: 14px 16px;
+    color: black;
+}
+body{
+    background-color: #E0E0CE;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 1100px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+*, * :before,*:after{
+    box-sizing: border-box;
+}
+article iframe{
+    max-width: 100%;
+}
+.video{
+    grid-column: 1/4;
+}
